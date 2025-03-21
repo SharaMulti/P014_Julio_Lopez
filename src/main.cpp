@@ -1,14 +1,14 @@
 /* Amerike university
    Author: Julio López
-   Practice #: 11
-   Date: 28/02/25
+   Practice #: 14
+   Date: 21/03/25
    Description: This program shall ask the user for a number INT up to 7, and the console shall dispense the average of it*/
 
    #include <iostream>
    using namespace std;
 
    double Average(double Num[], int size){
-    double Sum =0;
+    double Sum = 0;
     double avrg;
     for(int i = 0; i < size; i++){
     Sum += Num[i];
